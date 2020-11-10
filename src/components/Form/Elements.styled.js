@@ -6,6 +6,7 @@ export const FormSubmit = styled.button`
   border-radius: 3px;
   padding: 4px 16px;
   cursor: pointer;
+  margin-top: 12px;
   color: ${styledTheme.colors.white};
   background-color: ${styledTheme.colors.accent};
   transition: 100ms ease-out background-color;

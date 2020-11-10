@@ -1,9 +1,13 @@
 export default class AuthService {
   static async login(username, password) {
-    return { user: { username } };
+    const user = window.localStorage.getItem(username);
+
+    if (user && password === user) {
+      return { user: { username } };
+    }
+
+    throw new Error('No such user found');
   }
 
-  static async logout() {
-
-  }
+  static async logout() {}
 }

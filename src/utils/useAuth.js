@@ -26,12 +26,9 @@ function useProvideAuth() {
   };
 
   const signup = (username, password) => {
-    return LoginDataService
-      .createUser(username, password)
-      .then(response => {
-        setUser(response.user);
-        return response.user;
-      });
+    return LoginDataService.createUser(username, password).then(
+      (response) => response.user
+    );
   };
 
   const logout = () => {
