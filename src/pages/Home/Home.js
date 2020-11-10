@@ -1,13 +1,13 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useState } from "react";
 
-import { Section, SectionTitle } from '../../components/Section';
-import { Container } from '../../components/Container';
-import { PageTitle } from '../../components/UI';
-import { Form, FormSubmit, InputField } from '../../components/Form';
+import { Section, SectionTitle } from "../../components/Section";
+import { Container } from "../../components/Container";
+import { PageTitle } from "../../components/UI";
+import { Form, FormSubmit, InputField } from "../../components/Form";
 
-import { useAuth } from '../../utils/useAuth';
-import { Redirect } from 'react-router';
-import { Link } from 'react-router-dom';
+import { useAuth } from "../../utils/useAuth";
+import { Redirect } from "react-router";
+import { Link } from "react-router-dom";
 
 function HomeComponent() {
   const { login, user } = useAuth();
@@ -17,20 +17,19 @@ function HomeComponent() {
     (e) => {
       e.preventDefault();
 
-      const {
-        username: usernameEl,
-        password: passwordEl,
-      } = e.target.elements;
+      const { username: usernameEl, password: passwordEl } = e.target.elements;
 
-      login(usernameEl.value, passwordEl.value).then(() => {
-        setErrors('');
-      }, ({ message }) => {
-        setErrors(message);
-      });
+      login(usernameEl.value, passwordEl.value).then(
+        () => {
+          setErrors("");
+        },
+        ({ message }) => {
+          setErrors(message);
+        }
+      );
     },
     [login]
   );
-
 
   return (
     <>
@@ -38,9 +37,7 @@ function HomeComponent() {
 
       <Section>
         <Container>
-          <SectionTitle>
-            Welcome! Please log in
-          </SectionTitle>
+          <SectionTitle>Welcome! Please log in</SectionTitle>
 
           <Form onSubmit={handleSubmit}>
             <InputField
@@ -49,17 +46,16 @@ function HomeComponent() {
               label="Username"
               type="text"
             />
-            <InputField
-              name="password"
-              label="Password"
-              type="password"
-            />
+            <InputField name="password" label="Password" type="password" />
+            <p>
+              <Link to="/reset">Reset your password</Link>
+            </p>
             <FormSubmit>Submit</FormSubmit>
           </Form>
         </Container>
       </Section>
 
-      {user && <Redirect to="/dashboard"/>}
+      {user && <Redirect to="/dashboard" />}
     </>
   );
 }

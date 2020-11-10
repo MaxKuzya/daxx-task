@@ -18,6 +18,7 @@ import { Redirect } from 'react-router';
 const HomePage = React.lazy(() => import("./pages/Home"));
 const ActivationPage = React.lazy(() => import("./pages/Activation"));
 const DashboardPage = React.lazy(() => import("./pages/Dashboard"));
+const ResetPage = React.lazy(() => import("./pages/Reset"));
 
 /**
  * App component
@@ -42,6 +43,10 @@ export function App() {
 
                     <Route path="/login" exact>
                       <HomePage />
+                    </Route>
+
+                    <Route path="/reset" exact>
+                      <ResetPage />
                     </Route>
 
                     <Redirect to='/login'/>

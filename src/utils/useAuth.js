@@ -39,8 +39,8 @@ function useProvideAuth() {
       });
   };
 
-  const changePassword = (username, password) => {
-    return LoginDataService.changePassword(username, password)
+  const resetPassword = (username) => {
+    return LoginDataService.resetPassword(username)
       .then(() => {
         return true;
       });
@@ -52,6 +52,6 @@ function useProvideAuth() {
     login,
     signup,
     logout,
-    changePassword
+    resetPassword
   };
 }
