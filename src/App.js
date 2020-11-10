@@ -27,7 +27,7 @@ export function App() {
   return (
     <ProvideAuth>
       <ProvideMessage>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <ThemeProvider theme={styledTheme}>
             <ErrorBoundary FallbackComponent={ErrorFallback}>
               <Suspense fallback={<LoadingFallback />}>

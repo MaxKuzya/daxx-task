@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/daxx-task/static/js/main.ebefea49.chunk.js",
-    "main.js.map": "/daxx-task/static/js/main.ebefea49.chunk.js.map",
+    "main.js": "/daxx-task/static/js/main.da591ca3.chunk.js",
+    "main.js.map": "/daxx-task/static/js/main.da591ca3.chunk.js.map",
     "runtime-main.js": "/daxx-task/static/js/runtime-main.d32b65b2.js",
     "runtime-main.js.map": "/daxx-task/static/js/runtime-main.d32b65b2.js.map",
     "static/js/2.09064471.chunk.js": "/daxx-task/static/js/2.09064471.chunk.js",
@@ -20,6 +20,6 @@
   "entrypoints": [
     "static/js/runtime-main.d32b65b2.js",
     "static/js/2.09064471.chunk.js",
-    "static/js/main.ebefea49.chunk.js"
+    "static/js/main.da591ca3.chunk.js"
   ]
 }
