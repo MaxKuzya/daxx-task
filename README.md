@@ -1,5 +1,7 @@
 # daxx-task
 
+[Github pages](https://maxkuzya.github.io/daxx-task)
+
 ### Scenario:
 A customer should be able to log in on our website. (The actual Website is not needed.)
 Therefore they receive a Magic Link after they commissioned an order via Email. With this
