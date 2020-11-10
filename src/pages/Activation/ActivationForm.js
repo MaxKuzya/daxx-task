@@ -7,17 +7,16 @@ import { Section, SectionTitle } from "../../components/Section";
 import { PageTitle } from "../../components/UI";
 
 import { useAuth } from "../../utils/useAuth";
-import { useMessage } from '../../utils/useMessageProvider';
+import { useMessage } from "../../utils/useMessage";
 
 import PasswordService from "../../services/PasswordService";
-import { Link } from 'react-router-dom';
 
 function ActivationComponent({ username }) {
   const { signup } = useAuth();
   const [errors, setErrors] = useState(null);
   const [isActivated, setActivated] = useState(false);
 
-  const {addMessage} = useMessage();
+  const { addMessage } = useMessage();
 
   const handleSubmit = useCallback(
     (e) => {
@@ -39,7 +38,7 @@ function ActivationComponent({ username }) {
         setErrors(null);
 
         signup(username, passwordEl.value);
-        addMessage(`User ${username} signed up successfully!`)
+        addMessage(`User ${username} signed up successfully!`);
         setActivated(true);
       }
     },

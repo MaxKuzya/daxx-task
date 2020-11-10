@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { useMessage } from "../../utils/useMessageProvider";
+import React from "react";
+import { useMessage } from "../../utils/useMessage";
 import { MessageDialog } from "./MessageDialog.styled";
 import { Container } from "../Container";
 

@@ -7,26 +7,32 @@ import { Container } from "../../components/Container";
 import { PageTitle } from "../../components/UI";
 
 import { useAuth } from "../../utils/useAuth";
+import { useMessage } from "../../utils/useMessage";
 
 function ResetComponent() {
   const { resetPassword } = useAuth();
   const [errors, setErrors] = useState(null);
   const [username, setUsername] = useState(false);
+  const { addMessage } = useMessage();
 
-  const handleSubmit = useCallback((e) => {
-    e.preventDefault();
+  const handleSubmit = useCallback(
+    (e) => {
+      e.preventDefault();
 
-    const { username: usernameEl } = e.target.elements;
+      const { username: usernameEl } = e.target.elements;
 
-    resetPassword(usernameEl.value).then(
-      () => {
-        setUsername(usernameEl.value);
-      },
-      ({ message }) => {
-        setErrors(message);
-      }
-    );
-  }, []);
+      resetPassword(usernameEl.value).then(
+        () => {
+          addMessage("Your password was successfully reset");
+          setUsername(usernameEl.value);
+        },
+        ({ message }) => {
+          setErrors(message);
+        }
+      );
+    },
+    [resetPassword, resetPassword]
+  );
 
   return (
     <>

@@ -12,7 +12,7 @@ import { ThemeProvider } from "styled-components";
 // Utils
 import { styledTheme } from "./constants/styled-theme";
 import { ProvideAuth } from "./utils/useAuth";
-import { ProvideMessage } from "./utils/useMessageProvider";
+import { ProvideMessage } from "./utils/useMessage";
 import { Redirect } from 'react-router';
 // Pages
 const HomePage = React.lazy(() => import("./pages/Home"));

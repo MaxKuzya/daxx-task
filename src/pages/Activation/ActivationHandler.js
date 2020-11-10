@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useUserInfo } from "../../utils/useUserInfo";
 import { Redirect, useParams } from "react-router-dom";
 import ActivationForm from "./ActivationForm";
-import { useMessage } from '../../utils/useMessageProvider';
+import { useMessage } from '../../utils/useMessage';
 
 function ActivationHandler() {
   const { username } = useParams();
