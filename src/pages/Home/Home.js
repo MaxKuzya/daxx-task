@@ -52,6 +52,12 @@ function HomeComponent() {
             </p>
             <FormSubmit>Submit</FormSubmit>
           </Form>
+          <Link
+            style={{ display: "block", marginTop: "20px" }}
+            to="/activation/test"
+          >
+            Go to activation page
+          </Link>
         </Container>
       </Section>
 

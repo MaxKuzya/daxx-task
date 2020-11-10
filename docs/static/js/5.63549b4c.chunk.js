@@ -33,12 +33,13 @@
   display: block;
   margin-bottom: 24px;
 `,p=s.d.div`
-  font-size: 12px;
+  font-size: 16px;
   max-width: 200px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 `,x=s.d.p`
   position: absolute;
   color: ${a.a.colors.red};
-  font-size: 8px;
+  font-size: 11px;
+  margin-top: 2px;
 `;function j({children:e}){return Object(r.jsx)(b,{name:"submit",type:"submit",children:e})}var m=c.a.memo(j);function h({type:e,label:t,name:n,errors:o}){return Object(r.jsxs)(l,{children:[Object(r.jsx)(p,{children:t}),Object(r.jsx)("input",{name:n,type:e}),Object(r.jsx)(x,{children:o})]})}var f=c.a.memo(h)},51:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return l}));var r=n(1),o=n(0),c=n(3),s=n(47),a=n(45),i=n(22),d=n(46),u=n(11),b=n(12);var l=function(){const{resetPassword:e}=Object(u.b)(),[t,n]=Object(o.useState)(null),[l,p]=Object(o.useState)(!1),{addMessage:x}=Object(b.b)(),j=Object(o.useCallback)((t=>{t.preventDefault();const{username:r}=t.target.elements;e(r.value).then((()=>{x("Your password was successfully reset"),p(r.value)}),(({message:e})=>{n(e)}))}),[e,e]);return Object(r.jsxs)(r.Fragment,{children:[Object(r.jsx)(d.a,{visuallyHidden:!0,children:"Login page"}),Object(r.jsx)(a.a,{children:Object(r.jsxs)(i.a,{children:[Object(r.jsx)(a.b,{children:"Type your username to reset password"}),Object(r.jsxs)(s.a,{onSubmit:j,children:[Object(r.jsx)(s.c,{errors:t,name:"username",label:"Username",type:"text"}),Object(r.jsx)(s.b,{children:"Submit"})]})]})}),l&&Object(r.jsx)(c.a,{to:"/activation/"+l})]})}}}]);
-//# sourceMappingURL=5.a723aded.chunk.js.map
+//# sourceMappingURL=5.63549b4c.chunk.js.map

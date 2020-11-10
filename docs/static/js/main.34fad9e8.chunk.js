@@ -129,14 +129,15 @@
     opacity: 1;
     transform: translate(-50%);
   }
-`,v=u.d.div`
+`,v="rgba(170,221,255, 0.95)",k=u.d.div`
   position: fixed;
   top: 24px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(170,221,255, 0.9);
+  background-color: ${v};
+  box-shadow: 0 0 5px 0 ${v};
   padding: 12px 24px;
   border-radius: 5px;
   animation: ${y} 300ms ease;
-`;var k=n(22);function S(){const{message:t}=Object(w.b)();return t?Object(r.jsx)(v,{children:Object(r.jsx)(k.a,{children:t})}):null}var E=a.a.memo(S),F=n(21);const z=a.a.lazy((()=>n.e(4).then(n.bind(null,49)))),I=a.a.lazy((()=>n.e(3).then(n.bind(null,48)))),$=a.a.lazy((()=>n.e(6).then(n.bind(null,50)))),B=a.a.lazy((()=>n.e(5).then(n.bind(null,51))));function C(){return Object(r.jsx)(g.a,{children:Object(r.jsx)(w.a,{children:Object(r.jsx)(l.a,{basename:"/daxx-task",children:Object(r.jsx)(u.a,{theme:F.a,children:Object(r.jsx)(i.ErrorBoundary,{FallbackComponent:p,children:Object(r.jsx)(o.Suspense,{fallback:Object(r.jsx)(m,{}),children:Object(r.jsxs)(f,{children:[Object(r.jsxs)(d.d,{children:[Object(r.jsx)(d.b,{path:"/activation/:username",children:Object(r.jsx)(I,{})}),Object(r.jsx)(O,{path:"/dashboard",children:Object(r.jsx)($,{})}),Object(r.jsx)(d.b,{path:"/login",exact:!0,children:Object(r.jsx)(z,{})}),Object(r.jsx)(d.b,{path:"/reset",exact:!0,children:Object(r.jsx)(B,{})}),Object(r.jsx)(d.a,{to:"/login"})]}),Object(r.jsx)(E,{})]})})})})})})})}s.a.render(Object(r.jsx)(C,{}),document.getElementById("root"))}},[[44,1,2]]]);
-//# sourceMappingURL=main.da591ca3.chunk.js.map
+`;var S=n(22);function E(){const{message:t}=Object(w.b)();return t?Object(r.jsx)(k,{children:Object(r.jsx)(S.a,{children:t})}):null}var F=a.a.memo(E),z=n(21);const $=a.a.lazy((()=>n.e(4).then(n.bind(null,49)))),I=a.a.lazy((()=>n.e(3).then(n.bind(null,48)))),B=a.a.lazy((()=>n.e(6).then(n.bind(null,50)))),C=a.a.lazy((()=>n.e(5).then(n.bind(null,51))));function P(){return Object(r.jsx)(g.a,{children:Object(r.jsx)(w.a,{children:Object(r.jsx)(l.a,{basename:"/daxx-task",children:Object(r.jsx)(u.a,{theme:z.a,children:Object(r.jsx)(i.ErrorBoundary,{FallbackComponent:p,children:Object(r.jsx)(o.Suspense,{fallback:Object(r.jsx)(m,{}),children:Object(r.jsxs)(f,{children:[Object(r.jsxs)(d.d,{children:[Object(r.jsx)(d.b,{path:"/activation/:username",children:Object(r.jsx)(I,{})}),Object(r.jsx)(O,{path:"/dashboard",children:Object(r.jsx)(B,{})}),Object(r.jsx)(d.b,{path:"/login",exact:!0,children:Object(r.jsx)($,{})}),Object(r.jsx)(d.b,{path:"/reset",exact:!0,children:Object(r.jsx)(C,{})}),Object(r.jsx)(d.a,{to:"/login"})]}),Object(r.jsx)(F,{})]})})})})})})})}s.a.render(Object(r.jsx)(P,{}),document.getElementById("root"))}},[[44,1,2]]]);
+//# sourceMappingURL=main.34fad9e8.chunk.js.map

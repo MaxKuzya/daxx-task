@@ -5,7 +5,6 @@ export const useUserInfo = (username) => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    console.log(username);
     LoginDataService.isUserExist(username).then((res) => {
       setUser(res);
     });

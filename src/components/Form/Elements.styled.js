@@ -23,14 +23,15 @@ export const FormField = styled.label`
 `;
 
 export const FormLabel = styled.div`
-  font-size: 12px;
+  font-size: 16px;
   max-width: 200px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 `;
 
 export const FormFieldError = styled.p`
   position: absolute;
   color: ${styledTheme.colors.red};
-  font-size: 8px;
+  font-size: 11px;
+  margin-top: 2px;
 `;
 

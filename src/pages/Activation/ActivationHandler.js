@@ -9,8 +9,6 @@ function ActivationHandler() {
   const { isUserExist } = useUserInfo(username);
   const { addMessage } = useMessage();
 
-  console.log('isUserExist', isUserExist);
-
   useEffect(() => {
     if (isUserExist) {
       addMessage('User already exist!');
