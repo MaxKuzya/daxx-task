@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.js": "/static/js/main.ebefea49.chunk.js",
-    "main.js.map": "/static/js/main.ebefea49.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0b86c3ec.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0b86c3ec.js.map",
-    "static/js/2.61047cc8.chunk.js": "/static/js/2.61047cc8.chunk.js",
-    "static/js/2.61047cc8.chunk.js.map": "/static/js/2.61047cc8.chunk.js.map",
-    "static/js/3.12bd63a7.chunk.js": "/static/js/3.12bd63a7.chunk.js",
-    "static/js/3.12bd63a7.chunk.js.map": "/static/js/3.12bd63a7.chunk.js.map",
-    "static/js/4.e67d714c.chunk.js": "/static/js/4.e67d714c.chunk.js",
-    "static/js/4.e67d714c.chunk.js.map": "/static/js/4.e67d714c.chunk.js.map",
-    "static/js/5.a723aded.chunk.js": "/static/js/5.a723aded.chunk.js",
-    "static/js/5.a723aded.chunk.js.map": "/static/js/5.a723aded.chunk.js.map",
-    "static/js/6.47be32dd.chunk.js": "/static/js/6.47be32dd.chunk.js",
-    "static/js/6.47be32dd.chunk.js.map": "/static/js/6.47be32dd.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.61047cc8.chunk.js.LICENSE.txt": "/static/js/2.61047cc8.chunk.js.LICENSE.txt"
+    "main.js": "/daxx-task/static/js/main.ebefea49.chunk.js",
+    "main.js.map": "/daxx-task/static/js/main.ebefea49.chunk.js.map",
+    "runtime-main.js": "/daxx-task/static/js/runtime-main.d32b65b2.js",
+    "runtime-main.js.map": "/daxx-task/static/js/runtime-main.d32b65b2.js.map",
+    "static/js/2.09064471.chunk.js": "/daxx-task/static/js/2.09064471.chunk.js",
+    "static/js/2.09064471.chunk.js.map": "/daxx-task/static/js/2.09064471.chunk.js.map",
+    "static/js/3.12bd63a7.chunk.js": "/daxx-task/static/js/3.12bd63a7.chunk.js",
+    "static/js/3.12bd63a7.chunk.js.map": "/daxx-task/static/js/3.12bd63a7.chunk.js.map",
+    "static/js/4.e67d714c.chunk.js": "/daxx-task/static/js/4.e67d714c.chunk.js",
+    "static/js/4.e67d714c.chunk.js.map": "/daxx-task/static/js/4.e67d714c.chunk.js.map",
+    "static/js/5.a723aded.chunk.js": "/daxx-task/static/js/5.a723aded.chunk.js",
+    "static/js/5.a723aded.chunk.js.map": "/daxx-task/static/js/5.a723aded.chunk.js.map",
+    "static/js/6.47be32dd.chunk.js": "/daxx-task/static/js/6.47be32dd.chunk.js",
+    "static/js/6.47be32dd.chunk.js.map": "/daxx-task/static/js/6.47be32dd.chunk.js.map",
+    "index.html": "/daxx-task/index.html",
+    "static/js/2.09064471.chunk.js.LICENSE.txt": "/daxx-task/static/js/2.09064471.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b86c3ec.js",
-    "static/js/2.61047cc8.chunk.js",
+    "static/js/runtime-main.d32b65b2.js",
+    "static/js/2.09064471.chunk.js",
     "static/js/main.ebefea49.chunk.js"
   ]
 }
