@@ -2,6 +2,10 @@
 
 [Github pages](https://maxkuzya.github.io/daxx-task)
 
+**Username**: test (due to github pages restrictions)
+
+**Password**: _set by user on `/activation/:username` route_
+
 ### Scenario:
 A customer should be able to log in on our website. (The actual Website is not needed.)
 Therefore they receive a Magic Link after they commissioned an order via Email. With this
